@@ -1,2 +1,3 @@
 # setup
-bash <(curl -Ss <url_link....sh>)
+Docker
+bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/install_docker.sh)
