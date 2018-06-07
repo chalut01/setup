@@ -21,4 +21,4 @@ mv hostname /etc/.
 mv hosts /etc/.
 mv interfaces /etc/network/.
 
-#reboot
+echo "please reboot"
