@@ -1,6 +1,6 @@
 # setup
 Setup New host <br>
-$ curl https://raw.githubusercontent.com/chalut01/setup/master/setuphost.sh | bash -s <hostname> <ip> <gateway>
+$ curl https://raw.githubusercontent.com/chalut01/setup/master/setuphost.sh | bash -s >hostname< >ip< >gateway<
 reboot
 
 
