@@ -10,7 +10,7 @@ $ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/instal
 Install Golang <br>
 $ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/install_golang.sh)<br>
 
-Install Golang <br>
+Install ansible <br>
 $ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/install_ansible.sh)<br>
 
 Install Netdata <br>
