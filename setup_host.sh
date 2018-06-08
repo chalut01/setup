@@ -8,9 +8,9 @@ gateway=$3
 ## hosts
 echo $hostname 
 
-wget https://raw.githubusercontent.com/chalut01/setup/master/hostname
-wget https://raw.githubusercontent.com/chalut01/setup/master/hosts
-wget https://raw.githubusercontent.com/chalut01/setup/master/interfaces
+wget https://raw.githubusercontent.com/chalut01/setup/master/template/hostname
+wget https://raw.githubusercontent.com/chalut01/setup/master/template/hosts
+wget https://raw.githubusercontent.com/chalut01/setup/master/template/interfaces
 
 sed -i 's/{{hostname}}/'$hostname'/g' hostname
 sed -i 's/{{hostname}}/'$hostname'/g' hosts
