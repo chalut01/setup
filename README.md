@@ -3,6 +3,8 @@ Setup New host <br>
 $ curl https://raw.githubusercontent.com/chalut01/setup/master/setuphost.sh | bash -s $hostname $ip $gateway <br>
 reboot
 
+Install SUSE 11.4 Repository <br>
+$ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/addRepoSuse11.4.sh)<br>
 
 Install Docker <br>
 $ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/install_docker.sh)<br>
