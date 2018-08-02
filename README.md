@@ -1,6 +1,6 @@
 # setup
 Setup New host <br>
-$ curl https://raw.githubusercontent.com/chalut01/setup/master/setuphost.sh | bash -s $hostname $ip $gateway <br>
+$ curl https://raw.githubusercontent.com/chalut01/setup/master/setup_host.sh | bash -s $hostname $ip $gateway <br>
 reboot
 
 Install SUSE 11.4 Repository <br>
