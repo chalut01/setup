@@ -16,4 +16,7 @@ Install ansible <br>
 $ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/install_ansible.sh)<br>
 
 Install Netdata <br>
-$ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/install_netdata.sh)
+$ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/install_netdata.sh) <br>
+
+Install logstash <br>
+$ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/install_logstash.sh)
