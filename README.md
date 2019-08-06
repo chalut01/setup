@@ -3,9 +3,9 @@ Setup New host <br>
 $ curl https://raw.githubusercontent.com/chalut01/setup/master/setup_host.sh | bash -s $hostname $ip $gateway <br>
 reboot
 
-Setup NFS Server
-$ curl https://raw.githubusercontent.com/chalut01/setup/master/install_nfs_server.sh | bash $ip/sub $fullpath
-ex. curl https://raw.githubusercontent.com/chalut01/setup/master/install_nfs_server.sh | bash 192.168.10.0/24 /mnt/share
+Setup NFS Server <br>
+$ curl https://raw.githubusercontent.com/chalut01/setup/master/install_nfs_server.sh | bash $ip/sub $fullpath <br>
+ex. curl https://raw.githubusercontent.com/chalut01/setup/master/install_nfs_server.sh | bash 192.168.10.0/24 /mnt/share <br>
 
 Install SUSE 11.4 Repository <br>
 $ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/addRepoSuse11.4.sh)<br>
