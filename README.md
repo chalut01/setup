@@ -4,7 +4,7 @@ $ curl https://raw.githubusercontent.com/chalut01/setup/master/setup_host.sh | b
 reboot
 
 Setup NFS Server <br>
-$ curl https://raw.githubusercontent.com/chalut01/setup/master/install_nfs_server.sh | bash $ip/sub $fullpath <br>
+$ curl https://raw.githubusercontent.com/chalut01/setup/master/install_nfs_server.sh | bash -s $ip/sub $fullpath <br>
 Example. <br>
 curl https://raw.githubusercontent.com/chalut01/setup/master/install_nfs_server.sh | bash -s 192.168.10.0/24 /mnt/share <br>
 
