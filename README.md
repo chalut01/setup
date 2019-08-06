@@ -11,7 +11,7 @@ curl https://raw.githubusercontent.com/chalut01/setup/master/install_nfs_server.
 Install and Setup NFS Client <br>
 $ curl https://raw.githubusercontent.com/chalut01/setup/master/install_nfs_client.sh | bash -s $nfs-server-ip $server-path $client-path <br>
 Example. <br>
-$ curl https://raw.githubusercontent.com/chalut01/setup/master/install_nfs_client.sh | bash -s 192.168.10.200 /opt/share /mnt/share
+$ curl https://raw.githubusercontent.com/chalut01/setup/master/install_nfs_client.sh | bash -s 192.168.10.200 /mnt/share /opt/share
 
 Install SUSE 11.4 Repository <br>
 $ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/addRepoSuse11.4.sh)<br>
