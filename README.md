@@ -30,3 +30,6 @@ $ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/instal
 
 Install logstash <br>
 $ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/install_logstash.sh)
+
+Install portainer <br>
+$ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/install_portainer.sh)
