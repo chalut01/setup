@@ -20,5 +20,5 @@ echo "3. systemctl disable nginx"
 echo "4. cd /opt/stack/script"
 echo "5. edit nginx.chat.sh ,  nginx.tcp.sh , nginx.wildfly.sh , ctlscript.sh" 
 echo "6. comment line export LD_LIBRARY_PATH='/opt/stack/nginx/lib/:/opt/stack/mqtt/lib/' "
-echo "7. restart nginx"
+echo "7. FINISH"
 
