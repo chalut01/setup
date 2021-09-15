@@ -1,4 +1,7 @@
 # setup
+Install Docker for Ubuntu 18.04
+$ bash <(curl -Ss https://raw.githubusercontent.com/chalut01/setup/master/install_docker_ubuntu18.sh) <br>
+
 Setup New host <br>
 $ curl https://raw.githubusercontent.com/chalut01/setup/master/setup_host.sh | bash -s $hostname $ip $gateway <br>
 reboot
