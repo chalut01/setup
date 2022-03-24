@@ -139,7 +139,7 @@ echo -e "${BLUE} Initial Setup - Filesystem Integrity Checking${NC}"
 # 1.3.1 Ensure AIDE is installed
 echo
 echo -e "${RED}1.3.1 ${NC} Ensure AIDE is installed"
-apt-get install aide aide-common
+apt-get install -y aide aide-common
 # aideinit && mv /var/lib/aide/aide.db.new.gz /var/lib/aide/aide.db.gz
 echo -e "${GREEN}Remediated:${NC} Ensure AIDE is installed"
 policystatus=$?
